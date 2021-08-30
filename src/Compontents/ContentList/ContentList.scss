@@ -1,0 +1,51 @@
+@import '../../Sass/Variables.scss';
+
+
+.content-list-item{
+    padding: 5px  3px 17px ;
+    position: relative;
+    background-color:$mainColor ;
+    color: $colorWhite;
+    margin-bottom: 70px;
+    width:300px
+
+
+
+}
+.content-list-item:hover{
+    cursor: pointer;
+}
+
+.content-list-item:hover{
+
+    background-color: $darkColor;
+    transition: all .7s ease;
+}
+.content-list-item .content-image{
+
+    overflow: hidden;
+}
+
+.content-list-item .content-image img:hover{
+
+    transform: scale(1.1);
+    transition: all .9s ease;
+}
+
+.content-list-item .content-image img{
+
+    width: 100%;
+    max-height: 400px;
+    
+}
+
+.details-btn{
+
+    background-color: $darkColor;
+    color: white;
+    border: 1px solid white ;
+    padding: 5px 50px;
+}
+
+
+

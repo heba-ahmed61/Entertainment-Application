@@ -1,0 +1,25 @@
+.movies{
+
+    margin-top: 80px;
+    padding-bottom: 120px;
+    @media only screen and (min-width:320px) and (max-width:575.9px){
+
+        margin-top:60px;
+
+    }
+}
+
+.movies-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    
+}
+
+.genres{
+
+    margin: 70px 0 20px;
+}

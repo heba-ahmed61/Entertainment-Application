@@ -1,0 +1,59 @@
+@import '../../Sass/Variables.scss';
+
+.header{
+
+    background-color: $mainColor;
+    padding: 7px 0 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    @media only screen and (min-width:320px) and (max-width:575.9px){
+
+        padding: 5px 0;
+    }
+}
+
+.header h2{
+
+    font-size: 35px;
+    font-weight: bold;
+
+    
+    @media only screen and (min-width:576px) and (max-width:767.9px){
+
+        padding:0 30px;
+    }
+    
+    @media only screen and (min-width:320px) and (max-width:575.9px){
+
+        font-size:25px;
+    }
+
+    @media only screen and (max-width:319px) {
+
+        font-size: 20px;
+    }
+    
+}
+
+.header h2 a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.header h2 a:hover{
+
+    color:black;
+    transition: color .7s ease;
+}
+
+
+
+
+
+
+
+
