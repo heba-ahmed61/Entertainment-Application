@@ -7,10 +7,12 @@
     right: 2%;
     cursor: pointer;
     top:0;
+    
+    
 
     @media only screen and (min-width:320px) and (max-width:480px){
 
-        font-size: 20px;
+        font-size: 16px;
     }
     
 
@@ -46,6 +48,17 @@
 
         height: 200px;
     
+    }
+}
+.modal-info h5{
+
+
+    
+
+    @media only screen and (min-width:320px) and (max-width:767.9px){
+
+    
+        font-size: 16px;
     }
 }
 
@@ -86,7 +99,7 @@
 
 .modal-wrapper{
 
-    overflow-y: scroll;
+    overflow-y: auto;
     height: auto;
     @media only screen and (min-width:320px) and (max-width:480px){
 
@@ -102,7 +115,8 @@
 
     background-color: rgba(255, 255 , 255 , .3);
     border-radius: 10px;
-    width:.5px;
+    display: none;
+    width: .1px;
 
 
 
